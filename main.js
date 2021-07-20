@@ -1,6 +1,5 @@
-window.onload = function() {
-document.getElementById('Pick').addEventListener('click', pickMeOne(), false);
-}
+const button = document.getElementById('Pick');
+button.addEventListener('click', pickMeOne);
 
 function pickMeOne() {
 

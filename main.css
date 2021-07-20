@@ -1,0 +1,28 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#randombox {
+    background-color: chartreuse;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;    
+    text-align: center;
+    max-width: auto;
+    font-weight: 700;
+}
+
+#ButtonSpace {
+    text-align: center;
+}

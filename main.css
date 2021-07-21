@@ -1,7 +1,9 @@
+* 
+
 body {
-    color: white;
-    background-color: black;
+    background: rgba(0,0,255,0.25);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
 }
 
 button {
@@ -10,19 +12,29 @@ button {
     color: black;
     padding: 10px;
     border-radius: 5px;
+    width: 100%;
 }
 
 #randombox {
-    background-color: chartreuse;
+    background-color: whitesmoke;
     color: black;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;    
     text-align: center;
     max-width: auto;
-    font-weight: 700;
 }
 
 #ButtonSpace {
     text-align: center;
+}
+
+@media screen and (min-width: 361px) {
+    body {
+        background: rgba(0,255,0,0.25);
+    }
+
+    button {
+        margin: auto;
+    }
 }

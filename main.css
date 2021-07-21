@@ -8,25 +8,34 @@ body {
 
 button {
     border: 1px solid white;
-    background-color: white;
-    color: black;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
     padding: 10px;
-    border-radius: 5px;
     width: 100%;
+    font-weight: 700;
 }
 
-#randombox {
+div {
     background-color: whitesmoke;
     color: black;
     padding: 10px;
-    border-radius: 10px;
     margin-top: 10px;    
     text-align: center;
     max-width: auto;
 }
 
-#ButtonSpace {
-    text-align: center;
+#namebox {
+    border: 5px solid red;
+    background: black;
+    color: white;
+}
+
+#option1, #option2, #option3 {
+    font-weight: 100;
+    background: darkcyan;
+    color: wheat;
+    height: 20%;
 }
 
 @media screen and (min-width: 361px) {
